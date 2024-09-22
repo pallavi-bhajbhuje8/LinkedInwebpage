@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Header section */
+body {
+    background-color: #f8f6f6;
+    overflow-x: hidden;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* margin-right: 70px; */
+}
+
+img {
+    width: 40px;
+
+}
+
+.logo input {
+    width: 400px;
+    margin: 5px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #F6F5FF;
+    font-size: 16px;
+    padding-left: 35px;
+    color: #707070;
+    margin-right: 30px;
+
+}
+
+.icon {
+    position: absolute;
+    right: 83%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #d0d0d0;
+    margin-left: 3rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    margin: 25px 25px 20px 20px;
+    text-align: center;
+    color: #b3b0b0;
+    font-weight: 300;
+    position: relative;
+    transition: all 0.1s;
+}
+
+.home:hover {
+    color: #707070;
+    transform: scale(1.1);
+    background-color: #faf7f7;
+}
+
+.home i {
+    font-size: 25px;
+    color: #707070;
+    font-weight: 500;
+    transition: all 0.1s;
+}
+
+.home i:hover {
+    color: #d0d0d0;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.home img {
+    margin-top: 5px;
+    width: 35px;
+}
+
+span {
+    position: absolute;
+    top: 10px;
+    color: #707070;
+    width: 200px;
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+/* header end */
+
+/* section profile start */
+.img-content {
+    text-align: center;
+}
+
+.img-content img {
+    border-radius: 50%;
+    width: 35%;
+    margin-top: 60px;
+}
+
+.img-section {
+    background: linear-gradient(to right, rgb(254, 132, 71), rgb(250, 67, 106), rgb(250, 185, 80));
+    height: 150px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.inner-text {
+    display: flex;
+}
+
+.inner-text2 {
+    display: flex;
+    align-items: center;
+}
+
+.Acess-sec {
+    margin: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+.my-items {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.div1 {
+    width: 350px;
+    height: 112vh;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -2px -2px -2px gainsboro;
+}
+
+.Allcontent {
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.Allcontent-2 {
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    height: 41vh;
+    margin-top: 20px;
+    color: #707070;
+
+}
+
+.Allcontent-2 p {
+    font-weight: 500;
+}
+
+.Tensorflow {
+    margin: 10px;
+}
+
+.Tensorflow h3 {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+/* section Profile end */
+
+/* section post start */
+.div2 {
+    width: 550px;
+    margin: 20px;
+    height: 100vh;
+}
+
+.post-search {
+    background-color: white;
+    /* margin: 20px   0px; */
+    border-radius: 15px;
+    height: 11vh;
+
+}
+
+.post-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post-img img {
+    width: 9%;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.post-img input {
+    width: 70%;
+    height: 40px;
+    border-radius: 40px;
+    margin: 10px 0px 0px 30px;
+    font-size: 15px;
+    border: 1px solid #d0d0d0;
+
+}
+
+.content-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 80px 0px 0px;
+    color: #cbc9c9;
+    font-weight: 500;
+    position: relative;
+}
+
+.content-post span {
+    position: absolute;
+    top: 25%;
+}
+
+.photo i {
+    color: rgb(169, 250, 250);
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.video i {
+    color: rgb(29, 248, 175);
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.event i {
+    color: orange;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.write-artical i {
+    color: red;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.sorty {
+    color: #9c9c9c;
+    display: flex;
+    margin: 10px;
+}
+
+/* fashion myntra */
+.intranal-part {
+    background-color: white;
+    margin-top: 10px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-myntra img {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.ellipsis {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.logo-myntra {
+    position: relative;
+
+}
+
+.logo-myntra span {
+    color: #b3b0b0;
+    position: absolute;
+    left: 28%;
+    top: 10%;
+}
+
+.logo-myntra h1 {
+    position: absolute;
+    left: 20px;
+    top: 75%;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: 50vh;
+
+}
+
+.banner-2 img {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.banner-3 img {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.like-icons {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.like-icons img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.like-icons input {
+    border: 1px solid gainsboro;
+    padding: 10px 5px;
+    font-weight: 500;
+    color: #b3b0b0;
+    margin: 5px;
+    font-size: 16px;
+
+}
+
+.comments-icons {
+    /* text-align: center; */
+    margin: 0px 0px 20px 10px;
+
+
+}
+
+.comments-icons i {
+    font-size: 20px;
+    color: #7d7b7b;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+
+}
+
+.video-posting {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.geenlam-logo img {
+    width: 200px;
+}
+
+.greenlam {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green-text {
+    /* text-align:start; */
+    width: 250px;
+}
+
+.video img {
+    width: 100%;
+}
+
+.post1-img img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.comments-icons i:hover {
+    background-color: #f9f4f4;
+    cursor: pointer;
+
+}
+
+.button {
+    text-align: center;
+    margin: 10rem 0px;
+
+}
+
+.button a {
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 15px 45px;
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.button a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* End of Myntra fastion */
+
+/* section start div3 */
+
+.div3 {
+    width: 300px;
+    height: 112vh;
+    margin-top: 20px;
+    box-shadow: -2px -2px -2px gainsboro;
+}
+
+.linkedin-New {
+    background-color: white;
+    height: 60vh;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-new {
+    margin: 30px 30px 0px 30px;
+    font-size: 15px;
+    color: #787878;
+}
+
+.newicons {
+    margin: 39px 30px 0px 30px;
+
+}
+
+ul li {
+    margin: 30px 30px 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #8f8e8e;
+
+}
+
+.show-more-btn {
+    margin: 35px 30px 10px 30px;
+    color: #9f9d9d;
+    font-size: 15px;
+
+}
+
+.Today-most-view {
+    border: 1px solid gainsboro;
+    height: 27vh;
+    margin: 15px 0px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.view-part {
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+.Indian-crosses {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.Add_to_your_feed {
+    border: 1px solid gainsboro;
+    height: 112vh;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.company-consumers {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.company-text {
+    margin-left: 20px;
+}
+
+.btn_follow {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn_follow a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+.btn_follow a:hover {
+    border: 1px solid blue;
+    color: blue;
+    background-color: rgb(249, 235, 235);
+
+}
+
+.netflix img {
+    height: 6vh;
+}
+
+/*  section end div3 */
